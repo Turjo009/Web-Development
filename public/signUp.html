@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="javascripts/myJavascript.js" defer></script>
+</head>
+
+<body>
+    <div id="signUpID">
+        <h1>Sign up Page</h1>
+        <h5>Vue Working</h5>
+        <p>Enter your Sign up details here:</p>
+        <form>
+            <label for="userSignUp">Enter a new Username</label>
+            <input type="text" id="userSignUp"/>
+            <br>
+            <label for="passSignUp">Enter a new Password</label>
+            <input type="password" id="passSignUp"/>
+            <br>
+            <button type="button" onclick="mySignUpFunc()">click to sign up</button>
+        </form>
+
+        <p>click to see the userlists:</p>
+        <p>{{message}}</p>
+        <button type="button" v-on:click="seeUsers()"> See users </button>
+
+        <p></p>
+    </div>
+
+</body>
+</html>
