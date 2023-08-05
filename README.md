@@ -11,6 +11,7 @@ Implementation of some key elements for every Web Applications.
 * HTML, CSS and Javascript (AJAX and Vue.js) used for front-end development
 * Express server used for back-end development of the server
 * MySQL used to create the database which is used to store the user credentials
+* cookies and server sessions has been used to track user details.
 
 ### Key Learnings Outcomes:  
 1	Understand and apply web application architecture  
